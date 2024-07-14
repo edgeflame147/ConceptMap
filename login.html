@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="layout" class="sides">
+        <div id="info" class="sides">
+            <h1 id="title2">ConceptMap</h1>
+            <img id="logo" src="nodes.png" alt="logo"> 
+        </div>
+        <div id="login" class="sides">
+            <h1 id="title" class="comp" style="top:100px">Login</h1>
+            <form class="comp" style="top:200px">
+                <label for="username">Username</label>
+                <br>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <input type="button" value="Login" onclick="printScreen()">
+            </form>
+            <a href="signup.html" class="comp" style="top:350px">New? Sign Up Here</a>
+        </div>
+    </div>
+</body>
+</html>

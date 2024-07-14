@@ -1,0 +1,52 @@
+#layout {
+    display: flex;
+    text-align: center;
+}
+
+.sides {
+    flex: 50%;
+    height: 100%;
+}
+
+#info {
+    background-color: #E9EDC9;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.comp {
+    position: absolute;
+}
+
+#title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-size: 60px;
+    font-weight: bold;
+
+    position: relative;
+    top: 100px;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+    margin-top: 110px;
+    border-radius: 100px; 
+}
+
+
