@@ -1,0 +1,91 @@
+body {
+    background-image: url("physics.png");
+}
+
+#text1 {
+    position: absolute;
+    top: 110px;
+    left: 430px;
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #E9EDC9;
+    border-color: #E9EDC9;
+}
+
+#text2 {
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #D2DDAB;
+    border-color: #D2DDAB;
+}
+
+#text3 {
+    position: absolute;
+    top: 315px;
+    left: 860px;
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #E9EDC9;
+    border-color: #E9EDC9;
+}
+
+#text4 {
+    position: absolute;
+    top: 530px;
+    left: 880px;
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #ccd5ae;
+    border-color: #ccd5ae;
+}
+
+#enter4 {
+    position: absolute;
+    top: 640px;
+    left: 970px;
+    size-adjust: 10%;
+    height: 25px;
+    width: 75px;
+    background-color: #617847;
+    color: #fff6d8;
+}
+
+#enter3 {
+    position: absolute;
+    top: 425px;
+    left: 950px;
+    size-adjust: 10%;
+    height: 25px;
+    width: 75px;
+    background-color: #617847;
+    color: #fff6d8;
+}
+
+#enter2 {
+    position: absolute;
+    top: 140px;
+    left: 180px;
+    size-adjust: 10%;
+    height: 25px;
+    width: 75px;
+    background-color: #617847;
+    color: #fff6d8;
+}
+
+#enter1 {
+    position: absolute;
+    top: 220px;
+    left: 520px;
+    size-adjust: 10%;
+    height: 25px;
+    width: 75px;
+    background-color: #617847;
+    color: #fff6d8;
+}
